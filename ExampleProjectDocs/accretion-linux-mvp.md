@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-This document outlines the Minimum Viable Product (MVP) for Accretion Linux, a custom Linux distribution aimed at providing a lightweight and versatile operating system. The MVP represents the core features and functionality that must be implemented for the initial release.
+This document outlines the Minimum Viable Product (MVP) for Acreetion Linux, a custom Linux distribution aimed at providing a lightweight and versatile operating system. The MVP represents the core features and functionality that must be implemented for the ***initial release.***
 
 ## 2. MVP Goals
 
