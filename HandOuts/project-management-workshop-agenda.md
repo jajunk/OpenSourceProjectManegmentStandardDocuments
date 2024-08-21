@@ -1,6 +1,6 @@
-# Project Management Workshop: Using Tools Like Gitea
+## ***Project Management Workshop: Using Tools Like Gitea
 
-## Workshop Agenda
+## **Workshop Agenda**
 
 ### 1. Project Management Introduction (45 minutes)
 - Welcome and introductions
