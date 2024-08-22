@@ -9,22 +9,23 @@ Thank you for participating in our Project Management Workshop. To help us tailo
    (1: Not at all familiar, 5: Very familiar)  
    [ ] 1
    [ ] 2
-   [ ] 3
-   [ ] 4
+   [x] 3
+   [x] 4
    [ ] 5
 
 3. Which aspect of project management do you find most difficult? (Choose one)
-   [ ] Planning and scheduling
-   [ ] Team communication and collaboration
-   [ ] Task tracking and progress monitoring
-   [ ] Resource allocation
+   [x] Planning and scheduling
+   [X] Team communication and collaboration
+   [x] Task tracking and progress monitoring
+   [x] Resource allocation
    [ ] Risk management
-   [ ] Other: _________________
+   [X] Other: WorkLoad
+   [ ] Other Other/.. : 
 
 4. What specific tool or technique are you hoping to learn more about in this workshop?
-   [**Open text response**]
+   [**Communication Tools and Strategies, Later on we will work on !CI/CD Tools!**]
 
 5. Is there a specific project management problem you're currently facing that you'd like addressed during the workshop?
-   [**Open text response**]
+   [**COMMUNICATION**]
 
 Thank you for your input! We look forward to addressing these points during our workshop.
