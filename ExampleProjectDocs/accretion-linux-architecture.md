@@ -1,68 +1,71 @@
-# Accretion Linux: Architecture Overview
+# AcreetionOS Linux: Architecture Overview
 
 ## 1. Introduction
-
-This document provides a high-level overview of the architecture of Accretion Linux, outlining its major components and their interactions.
+[Summerize when the rest of the document is finished]
 
 ## 2. System Architecture
 
-Accretion Linux follows a modular architecture, built on top of the Linux kernel. The system is composed of the following major components:
+AcreetionOS Linux follows a modular architecture, built on top of the Linux kernel. The system is composed of the following major components:
 
-```
-[User Applications]
-         |
-[Desktop Environment]
-         |
-[System Services] --- [Package Manager]
-         |
-[Init System]
-         |
-[Linux Kernel]
-         |
-[Hardware]
-```
+### User Applications
+|Self-Created| Community Created|
+| ---------- | ---------------- |
+| CInstaller |Archinstall     |
+|            |Mate Terminal |
+|            |gedit|
+|            |VS Code |
+|            |Nano|
+|            |VI|
+|            |xviewer
+|            |xreader
+|            |xarchiver
+|            |xplayer
+|            |pix 
+
+### Desktop Environment
+***Cinnamon***, *Mate, XFCE*
+
+### System Services 
+*Lightdm*
+*timeshift*
+*Pamac update start up service thing*
+
+### Package Manager
+*Pacman, AUR, Flatpak* 
+
+### Init System
+*Systemd*
+
+### Linux Kernel
+*Zen-Kernel*
+
+### Hardware
+*x86_64*
+
 
 ### 2.1 Linux Kernel
 
-At the core of Accretion Linux is the Linux kernel, responsible for hardware abstraction, process management, and system calls.
+At the core of AcreetionOS Linux, we are using the Zen Kernel, a kernel with a variety of extra patches for performance improvements. It is managed by The Zen Kernel team found at https://github.com/zen-kernel/zen-kernel. 
 
 ### 2.2 Init System
 
-Accretion Linux uses systemd as its init system and service manager, handling the boot process and managing system services.
+Acreetion Linux uses systemd as its init system and service manager, handling the boot process and managing system services.
 
 ### 2.3 System Services
 
 These include essential daemons and background processes such as:
 - NetworkManager for network configuration
-- PulseAudio for audio management
-- Xorg/Wayland for display server
-
-### 2.4 Package Manager
-
-A custom package manager built on top of pacman, providing:
-- Software installation, removal, and updates
-- Dependency resolution
-- Repository management
+- Pipewire for audio management
+- Xorg for display server
 
 ### 2.5 Desktop Environment
-
-A lightweight desktop environment (e.g., XFCE or LXQt) providing:
-- Window management
-- Panel for system tray, application launcher, etc.
-- Settings management
-
-### 2.6 User Applications
-
-A curated selection of applications for productivity, development, and system management.
 
 ## 3. Key Subsystems
 
 ### 3.1 Boot Process
 
-1. GRUB bootloader
+1. Systemd-boot
 2. Linux kernel initialization
-3. systemd initialization
-4. System services start-up
 5. Display manager launch
 6. User session start
 
